@@ -1,0 +1,131 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{ 
+
+       height: 100%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+       font-family: 'Sometype Mono', monospace;
+     flex-direction: column;
+
+
+}
+
+
+#main{
+
+   
+    box-shadow: 2px 3px #9f7ade96;
+    height: auto;
+    /* overflow: hidden; */
+    width: 33vw;
+    border: 2px solid #a45eb1;
+  
+      
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+     
+}
+
+#inputs{ 
+    position: relative;
+    height: 50%;
+    left: 15%;
+
+
+}
+ .input{ 
+    position: relative;
+    left: -2vw;
+    display: flex;
+    justify-content: center;
+    width: 27vw;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 2vh;
+ }
+ .text1{ 
+
+    width: 20vw;
+    height: 15vh;
+    font-family: 'Sometype Mono', monospace;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 2vw;
+
+ }
+.btn{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sometype Mono', monospace;
+}
+
+#add{
+    
+    font-family: 'Sometype Mono', monospace;
+    background: none;
+    border: none;
+   
+
+
+}    
+
+.add{ 
+    font-size: 4vw;
+    /* transform: translateY(50%); */
+}
+
+.done{
+    font-family: 'Sometype Mono', monospace;
+    border: none;
+    font-size: 4vw;
+    background: none;
+}
+
+.done:hover{ 
+    color: rgb(148, 191, 83);
+    cursor: pointer;
+   
+}
+ 
+ #add:hover{
+    cursor: pointer;
+    color:rgba(226, 158, 224, 0.45);
+
+ }
+
+ .delete{
+    font-family: 'Sometype Mono', monospace;
+    border: none;
+    font-size: 4vw;
+    background: none;
+ }
+
+ .delete:hover{ 
+    color: rgb(255, 157, 0);
+    cursor: pointer;
+}
+
+footer{
+   
+     font-weight: 900;
+     position: relative;
+     top: 10vh;
+    
+}
+
+ 
+
+
+ 
